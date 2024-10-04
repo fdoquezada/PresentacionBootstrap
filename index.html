@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Demostración de Bootstrap</title>
+    <link rel="stylesheet" href="static/style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  
+</head>
+<body>
+    <!-- Barra de navegación -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Bootstrap Demo</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#carousel">Carrusel</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#card">Tarjeta</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#chart">Gráfico</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Sección 1: Carrusel -->
+    <section id="carousel" class="my-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Carrusel de imágenes</h2>
+            <div id="demoCarousel" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="https://lh3.googleusercontent.com/proxy/ZsKNd3lTDbVGse-h6SoPWs5kAFULBV6hHTlvQpd-DPczQhRq5rP8R78GvOMAHFDxduwVEFtS2IC-IQUCy046iYBfDc52ADa68U41Qrr0AjNhCHIPq1ULoD_6lPIRu9Q" class="d-block w-100" alt="Imagen 1">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://concepto.de/wp-content/uploads/2019/11/evaporacion-agua-e1573419366790-800x400.jpg" class="d-block w-100" alt="Imagen 2">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://st.depositphotos.com/3584053/55196/i/450/depositphotos_551965618-stock-photo-side-view-asphalt-road-on.jpg" class="d-block w-100" alt="Imagen 3">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#demoCarousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Anterior</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#demoCarousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Siguiente</span>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección 2: Tarjeta -->
+    <section id="card" class="card-section">
+        <div class="container">
+            <h2 class="text-center section-title">Ejemplos de Uso de Bootstrap</h2>
+            <div class="row g-4">
+                <!-- Tarjeta 1: Sistema de Grid -->
+                <div class="col-md-4">
+                    <div class="card h-100">
+                        <img src="https://i.ytimg.com/vi/DZKf9l42WCo/maxresdefault.jpg" class="card-img-top" alt="Ejemplo de sistema de grid de Bootstrap">
+                        <div class="card-body">
+                            <h5 class="card-title">Sistema de Grid</h5>
+                            <p class="card-text">El sistema de grid de Bootstrap permite crear diseños responsivos fácilmente. Divide el ancho en 12 columnas, facilitando la organización del contenido en diferentes tamaños de pantalla.</p>
+                            <a href="#" class="btn btn-primary">Ver más sobre Grid</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Tarjeta 2: Componentes de Navegación -->
+                <div class="col-md-4">
+                    <div class="card h-100">
+                        <img src="https://designmodo.com/wp-content/uploads/2019/08/startup-navbar.jpg" class="card-img-top" alt="Ejemplo de navbar de Bootstrap">
+                        <div class="card-body">
+                            <h5 class="card-title">Componentes de Navegación</h5>
+                            <p class="card-text">Bootstrap ofrece componentes de navegación prediseñados como navbars, tabs y breadcrumbs. Estos facilitan la creación de menús y sistemas de navegación intuitivos.</p>
+                            <a href="#" class="btn btn-primary">Explorar Navegación</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Tarjeta 3: Formularios -->
+                <div class="col-md-4">
+                    <div class="card h-100">
+                        <img src="https://i.ytimg.com/vi/xUK6LQwwenM/sddefault.jpg" class="card-img-top" alt="Ejemplo de formulario de Bootstrap">
+                        <div class="card-body">
+                            <h5 class="card-title">Formularios</h5>
+                            <p class="card-text">Los estilos de formularios de Bootstrap mejoran la apariencia y funcionalidad de los inputs, selects y textareas. Incluyen validación y diseños responsivos.</p>
+                            <a href="#" class="btn btn-primary">Ver Formularios</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Tarjeta 4: Componentes de Alerta -->
+                <div class="col-md-4">
+                    <div class="card h-100">
+                        <img src="https://styde.net/wp-content/uploads/2015/08/alert-type.png" class="card-img-top" alt="Ejemplo de alertas de Bootstrap">
+                        <div class="card-body">
+                            <h5 class="card-title">Componentes de Alerta</h5>
+                            <p class="card-text">Bootstrap proporciona estilos para alertas y mensajes de notificación. Estos pueden usarse para mostrar información importante, errores o confirmaciones al usuario.</p>
+                            <a href="#" class="btn btn-primary">Ver Alertas</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Tarjeta 5: Modales -->
+                <div class="col-md-4">
+                    <div class="card h-100">
+                        <img src="https://mdbcdn.b-cdn.net/docs/standard/extended/modal-size/assets/featured.jpg" class="card-img-top" alt="Ejemplo de modal de Bootstrap">
+                        <div class="card-body">
+                            <h5 class="card-title">Modales</h5>
+                            <p class="card-text">Los modales de Bootstrap son ventanas emergentes versátiles. Se utilizan para diálogos, formularios ligeros o para mostrar contenido sin necesidad de cargar una nueva página.</p>
+                            <a href="#" class="btn btn-primary">Explorar Modales</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Tarjeta 6: Utilidades de Espaciado y Flexbox -->
+                <div class="col-md-4">
+                    <div class="card h-100">
+                        <img src="https://desarrolloweb.com/archivoimg/general/4191.png" class="card-img-top" alt="Ejemplo de utilidades de espaciado y flexbox de Bootstrap">
+                        <div class="card-body">
+                            <h5 class="card-title">Utilidades de Espaciado y Flexbox</h5>
+                            <p class="card-text">Bootstrap ofrece clases utilitarias para márgenes, padding y flexbox. Estas permiten ajustar rápidamente el diseño y la disposición de los elementos sin CSS personalizado.</p>
+                            <a href="#" class="btn btn-primary">Ver Utilidades</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección 3: Gráfico -->
+    <section id="chart" class="my-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Uso de Bootstrap en el mercado</h2>
+            <canvas id="bootstrapChart"></canvas>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-light py-5 mt-5">
+        <div class="container">
+            <div class="row">
+                <!-- Secciones del sitio -->
+                <div class="col-md-4">
+                    <h5 class="text-uppercase">Secciones</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#carousel" class="text-light">Carrusel de Imágenes</a></li>
+                        <li><a href="#card" class="text-light">Ejemplos de Bootstrap</a></li>
+                        <li><a href="#chart" class="text-light">Gráfico de Uso</a></li>
+                    </ul>
+                </div>
+                
+                <!-- Contacto y redes sociales -->
+                <div class="col-md-4 text-center">
+                    <h5 class="text-uppercase">Síguenos</h5>
+                    <a href="#" class="text-light me-3"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" class="text-light me-3"><i class="fab fa-twitter"></i></a>
+                    <a href="#" class="text-light me-3"><i class="fab fa-instagram"></i></a>
+                    <a href="#" class="text-light"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+                
+                <!-- Información de contacto -->
+                <div class="col-md-4">
+                    <h5 class="text-uppercase">Contacto</h5>
+                    <p>Email: contacto@ejemplo.com</p>
+                    <p>Teléfono: +123 456 789</p>
+                    <p>Dirección: Calle Falsa 123, Ciudad Ejemplo</p>
+                </div>
+            </div>
+    
+            <div class="row mt-4">
+                <!-- Derechos reservados -->
+                <div class="col text-center">
+                    <p>&copy; 2024 Demostración de Bootstrap. Todos los derechos reservados.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Botón flotante de WhatsApp -->
+    <a href="https://wa.me/1234567890" class="whatsapp-float" target="_blank" style="position: fixed; bottom: 20px; left: 20px; background-color: #25d366; color: white; padding: 10px 15px; border-radius: 80px;">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+    <a href="#" id="backToTopBtn" class="back-to-top float-end" style="position: fixed; bottom: 20px; right: 20px; background-color: #007bff; color: white; padding: 10px 15px; border-radius: 50px; display: none;">
+        <i class="fas fa-arrow-up"></i>
+    </a>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.9.1/chart.min.js"></script>
+    <script src="static/main.js"></script>
+</body>
+</html>

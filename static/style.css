@@ -1,0 +1,103 @@
+.whatsapp-float {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 40px;
+    right: 40px;
+    background-color: #25d366;
+    color: #FFF;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 2px 2px 3px #999;
+    z-index: 100;
+}
+.whatsapp-float i {
+    margin-top: 16px;
+}
+.carousel-section {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/api/placeholder/1200/800') no-repeat center center;
+    background-size: cover;
+    color: white;
+    padding: 50px 0;
+}
+
+/* Nuevo: Estilos para controlar el tamaño de las imágenes del carrusel */
+.carousel-inner {
+    max-width: 800px;  /* Ajusta este valor según tus necesidades */
+    margin: 0 auto;    /* Centra el carrusel horizontalmente */
+}
+.carousel-item {
+    height: 400px;     /* Altura fija para todos los elementos del carrusel */
+}
+.carousel-item img {
+    width: 100%;       /* La imagen ocupa todo el ancho del contenedor */
+    height: 100%;      /* La imagen ocupa toda la altura del contenedor */
+    object-fit: cover;  /* Mantiene la relación de aspecto y cubre todo el espacio */
+    object-position: center;  /* Centra la imagen dentro del contenedor */
+}
+
+
+.bg-carousel {
+    background-color: #f8f9fa; /* Color de fondo gris claro */
+    padding: 60px 0;
+}
+
+/* Fondo para la sección de tarjetas */
+.bg-cards {
+    background-color: #e9ecef; /* Color de fondo gris suave */
+    padding: 60px 0;
+}
+
+/* Fondo para la sección de gráficos */
+.bg-chart {
+    background-color: #dee2e6; /* Color de fondo gris más oscuro */
+    padding: 60px 0;
+}
+
+/* Estilos para las tarjetas */
+.card {
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+.card-title {
+    color: #007bff;
+    font-weight: bold;
+}
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+    transition: background-color 0.3s ease-in-out;
+}
+.btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+}
+/* Estilos para los fondos de sección */
+.carousel-section {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/api/placeholder/1200/800') no-repeat center center;
+    background-size: cover;
+    color: white;
+    padding: 50px 0;
+}
+.card-section {
+    background: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)), url('/api/placeholder/1200/800') no-repeat center center;
+    background-size: cover;
+    padding: 50px 0;
+}
+.chart-section {
+    background: linear-gradient(rgba(0, 123, 255, 0.1), rgba(0, 123, 255, 0.1)), url('/api/placeholder/1200/800') no-repeat center center;
+    background-size: cover;
+    padding: 50px 0;
+}
+.section-title {
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+    margin-bottom: 30px;
+}

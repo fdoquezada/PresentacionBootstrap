@@ -35,12 +35,16 @@
     height: 100%;      /* La imagen ocupa toda la altura del contenedor */
     object-fit: cover;  /* Mantiene la relación de aspecto y cubre todo el espacio */
     object-position: center;  /* Centra la imagen dentro del contenedor */
+    border-image :fill 0 linear-gradient(#0003, #000);
+    
+
 }
 
 
 .bg-carousel {
     background-color: #f8f9fa; /* Color de fondo gris claro */
     padding: 60px 0;
+
 }
 
 /* Fondo para la sección de tarjetas */
@@ -101,3 +105,4 @@
     text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
     margin-bottom: 30px;
 }
+

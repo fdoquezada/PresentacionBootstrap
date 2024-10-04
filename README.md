@@ -28,7 +28,7 @@ La página web se compone de las siguientes secciones principales:
 
 1. Clona este repositorio en tu máquina local:
     ```bash
-    git clone https://github.com/tu-usuario/tu-repositorio.git
+    git clone https://github.com/fdoquezada/PresentacionBootstrap
     ```
 
 2. Asegúrate de tener una estructura de archivos similar a la siguiente:

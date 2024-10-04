@@ -70,13 +70,13 @@ El footer de esta página ha sido diseñado para incluir iconos de redes sociale
 ## Capturas de Pantalla
 
 ### Página Completa
-![Página Completa](https://via.placeholder.com/1200x800.png)
+![Página Completa]()
 
 ### Sección de Carrusel
-![Carrusel](https://via.placeholder.com/1200x400.png)
+![Carrusel](g)
 
 ### Footer
-![Footer](https://via.placeholder.com/1200x200.png)
+![Footer]()
 
 ## Licencia
 
